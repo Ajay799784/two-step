@@ -1,0 +1,40 @@
+.App {
+  text-align: center;
+}
+.App-header {
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  font-size: calc(10px+2vmin);
+}
+.center-stepper {
+  display: flex;
+  justify-content: center;
+}
+.required::after {
+  content: " *";
+  color: red;
+}
+.mouni {
+  margin-top: 50px;
+  margin-bottom: 50px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.vini {
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+  column-gap: 20px;
+}
+.raju {
+  justify-content: space-between;
+  display: flex;
+  justify-content: center;
+  column-gap: 50px;
+  margin-bottom: 20px;
+}
+.pinky {
+  margin-bottom: 20px;
+}
